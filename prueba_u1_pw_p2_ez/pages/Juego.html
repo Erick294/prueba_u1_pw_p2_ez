@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Estilo.css">
+    <script src="../js/Funcionalidad.js"></script>
+    <title>Juego POKÉMON</title>
+</head>
+<body>
+    <h1 id="idTitulo">Seleccione el Pokémon correcto</h1>
+
+    <img src="../img/pnegro.jpg" alt="Imagen no encontrada" id="pokemon">
+
+    <br>
+    <table>
+        <tr><button onclick="muestraIncorrecto()">keldeo-ordinary</button></tr>
+        <br>
+        <tr><button onclick="muestraIncorrecto()">drilbur</button></tr>
+        <br>
+        <tr><button onclick="muestraIncorrecto()">ninjask</button></tr>
+        <br>
+        <tr><button id="pokemonCorrecto" onclick="muestraCorrecto()">excadrill</button></tr>
+    </table>
+
+    <br>
+    <label for="" id="idMensaje"></label>
+    <br>
+
+    <br>
+    <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+</body>
+</html>
